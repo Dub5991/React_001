@@ -38,7 +38,6 @@ Greeting.propTypes = {
 
 Greeting.defaultProps = {
     initialName: 'John Doe',
-    customMessage: 'Welcome! Please log in.'
 }
 
 

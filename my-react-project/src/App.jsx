@@ -11,7 +11,7 @@ function App() {
   return (
   <div>
     <h1>Hello, World!</h1>
-    <Greeting customMessage={customMessage} />
+    <Greeting customMessage={customMessage} initialName={"John Doe"}/>
     <ClassGreeting customMessage={customMessage} />
     <Counter />
   </div>
